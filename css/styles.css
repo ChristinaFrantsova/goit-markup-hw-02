@@ -1,0 +1,203 @@
+
+/* Колір основного тексту #757575  */
+/* Колір другорядного тексту #212121 */
+/* Колір частки Web лого в header #000000 */
+/* Акцент #2196F3 */
+/* Білий #FFFFFF */
+/* Колір контактів в footer rgba(255, 255, 255, 0.6); */
+
+/* Колір основного фону #FFFFFF */
+/* Колір фону Команда #F5F4FA;  */
+/* Колір фону Герой і Футер #2F303A; */
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-white-color: #fff;
+}
+
+
+/* СТИЛІ ДЛЯ index.html */
+
+body {
+    background-color: var(--primery-white-color);
+    color: var(--primery-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.logo{
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo>span {
+    color: #000000;
+}
+
+   .list {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* .link .current розібратись як працює
+    color: var(--title-text-color);
+}
+
+Contact не працює чогось
+.contacts .link:hover, .contacts .link:focus{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.contact-mail:hover, .contact-mail:focus{ 
+    ;
+
+} */
+
+/* HERO */
+.hero-title {
+    background-color: #2F303A;
+    color: var(--primery-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+/* Section h2 */
+.section-title {
+    color: var(--title-text-color);
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Features */
+
+.feature {
+    list-style: none;
+    text-decoration: none;
+}
+.feature .feature-title {
+    color: var(--title-text-color);
+    
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    
+}
+
+ .feature .feature-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Team */
+.team-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.team-title {
+    background-color: ;
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+}
+
+
+/* СТИЛІ ДЛЯ ПОРТФОЛІО */
+
+/* Button */
+
+
+.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button:hover, .button:focus {
+    color: var(--primery-white-color) ;
+    background-color: var(--accent-color);
+}
+
+/* Work */
+
+.work-title {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+}
+
+.work-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+}
