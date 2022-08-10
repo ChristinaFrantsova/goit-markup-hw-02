@@ -63,19 +63,29 @@ body {
     color: var(--accent-color);
 }
 
-/* .link .current розібратись як працює
-    color: var(--title-text-color);
+/* Attention */
+
+.site-nav .link .current {
+    color: #2196F3;
 }
 
-Contact не працює чогось
-.contacts .link:hover, .contacts .link:focus{
+.link .current розібратись як працює
+    color: var(--title-text-color);
+}
+ /* Contacts */
+.contact-link {color: var(--title-text-color);
+    text-decoration: none;}
+
+.link:hover, .link:focus{
     color: var(--title-text-color);
     text-decoration: none;
 }
 .contact-mail:hover, .contact-mail:focus{ 
     ;
 
-} */
+} 
+
+/* Attention */
 
 /* HERO */
 .hero-title {
@@ -137,10 +147,6 @@ Contact не працює чогось
 }
 
 /* Team */
-.team-list {
-    list-style: none;
-    text-decoration: none;
-}
 
 .team-title {
     background-color: ;
@@ -161,6 +167,30 @@ Contact не працює чогось
 
 }
 
+/* Footer */ 
+/* Adress */
+
+.adress {
+    background-color: #2F303A;
+}
+
+
+.adress-link {
+    color: var(--primery-white-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   
+}
+
+.adress-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+}
 
 /* СТИЛІ ДЛЯ ПОРТФОЛІО */
 
