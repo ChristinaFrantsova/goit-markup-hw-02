@@ -28,7 +28,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.logo{
+/*  Logo */
+.logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -37,18 +38,24 @@ body {
     text-decoration: none;
 }
 
-.logo>span {
+.logo.header>span {    
     color: #000000;
 }
 
-   .list {
+
+.logo.footer>span {
+    color: var(--primery-white-color);
+}
+
+
+.list {
     list-style: none;
     text-decoration: none;
 }
 
 /* Site-nav */
-.site-nav .link {
-    color: var(--title-text-color);
+.site-nav .link{
+    color: var(--title-text-color) ;
     text-decoration: none;
     cursor: pointer;
     font-weight: 500;
@@ -58,38 +65,32 @@ body {
 
 }
 
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 
-/* Attention */
-
-.site-nav .link .current {
-    color: #2196F3;
+.site-nav .link.current {
+    color: var(--accent-color);
 }
 
-.link .current розібратись як працює
-    color: var(--title-text-color);
-}
+
  /* Contacts */
 .contact-link {color: var(--title-text-color);
     text-decoration: none;}
 
-.link:hover, .link:focus{
-    color: var(--title-text-color);
-    text-decoration: none;
-}
-.contact-mail:hover, .contact-mail:focus{ 
-    ;
+.contact-link:hover, .contact-link:focus{
+    color: var(--accent-color);
+    text-decoration: none;}
 
-} 
-
-/* Attention */
 
 /* HERO */
-.hero-title {
+.hero {
     background-color: #2F303A;
+}
+
+.hero-title {
     color: var(--primery-white-color);
 
     font-weight: 900;
@@ -140,7 +141,7 @@ body {
     
 }
 
- .feature .feature-text {
+.feature .feature-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -170,7 +171,7 @@ body {
 /* Footer */ 
 /* Adress */
 
-.adress {
+.footer {
     background-color: #2F303A;
 }
 
